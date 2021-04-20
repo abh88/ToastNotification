@@ -7,8 +7,8 @@
 	<Feature Name="ADPasswordExpiration" Enabled="False" />	<!-- Enables the toast for reminding users of expiring Active Directory passwords -->
 	<Option Name="TargetOS" Build="19042" />	<!-- The actual build number of the targeted OS. 19041 = 2004 | 18363 = 1909 | 18362 = 1903 | 17763 = 1809. This option has no effect if OSUpgrade is set to False -->
 	<Option Name="MaxUptimeDays" Value="-6" />	<!-- When using the toast for checking for pending reboots. A reboot is considered pending if computer uptime exceeds the value set here -->
-	<Option Name="PendingRebootUptimeText" Enabled="True" />	<!-- Adds an additional group to the toast with text about the uptime of the computer -->
-	<Option Name="PendingRebootCheckText" Enabled="False" />	<!-- Adds an additional group to the toast with text -->
+	<Option Name="PendingRebootUptimeText" Enabled="False" />	<!-- Adds an additional group to the toast with text about the uptime of the computer -->
+	<Option Name="PendingRebootCheckText" Enabled="True" />	<!-- Adds an additional group to the toast with text -->
 	<Option Name="ADPasswordExpirationText" Enabled="False" />	<!-- Adds an additional group to the toast with text -->
 	<Option Name="ADPasswordExpirationDays" Value="90" />	<!-- How many days in advance shall the toast start reminding the users  -->
 	<Option Name="RunPackageID" Enabled="False" Value="KR100907" /> <!-- Will enable the toast to run any ConfigMgr PackageID through a custom protocol -->
