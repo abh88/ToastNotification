@@ -42,7 +42,7 @@
 		<Text Name="ActionButton2">Learn More</Text>  <!-- Text on the ActionButton if enabled -->
         <Text Name="DismissButton">Dismiss</Text> <!-- Text on the DismissButton if enabled -->
         <Text Name="SnoozeButton">Snooze</Text> <!-- Text on the SnoozeButton if enabled -->
-        <Text Name="AttributionText">www.jndata.dk</Text>
+        <Text Name="AttributionText">www.imab.dk</Text>
         <Text Name="HeaderText">Helpdesk kindly reminds you...</Text>
         <Text Name="TitleText">Your computer needs to restart!</Text>
         <Text Name="BodyText1">For security and stability reasons, we kindly ask you to restart your computer as soon as possible.</Text>
@@ -67,7 +67,7 @@
 		<Text Name="ActionButton2">Mere Info</Text>  <!-- Text on the ActionButton if enabled -->
         <Text Name="DismissButton">Afvis</Text> <!-- Text on the DismissButton if enabled -->
         <Text Name="SnoozeButton">Udskyd</Text> <!-- Text on the SnoozeButton if enabled -->
-        <Text Name="AttributionText">www.jndata.dk</Text>
+        <Text Name="AttributionText">www.imab.dk</Text>
         <Text Name="HeaderText">En venlig påmindelse fra Helpdesk</Text>
         <Text Name="TitleText">Din computer skal genstarte!</Text>
         <Text Name="BodyText1">Af hensyn til din computers sikkerhed og stabilitet, beder vi dig genstarte din computer snarest muligt.</Text>
