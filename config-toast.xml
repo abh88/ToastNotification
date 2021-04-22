@@ -15,7 +15,7 @@
 	<Option Name="RunApplicationID" Enabled="False" Value="ScopeId_A9117680-D054-482B-BC97-532E6CBD0E6B/Application_fd55f35c-4e34-4490-a3ec-ee0b79233ec6" /> <!-- Will enable the toast to run any ConfigMgr ApplicationID through a custom protocol -->
 	<Option Name="RunUpdateID" Enabled="False" Value="4561600" /> <!-- Will enable the toast to run any ConfigMgr Update ID through a custom protocol. Configure the value to the relevant KB-article ID -->
 	<Option Name="RunUpdateTitle" Enabled="False" Value="" /> <!-- Will enable the toast to run any ConfigMgr Update Name through a custom protocol -->
-	<Option Name="Deadline" Enabled="False" Value="30-09-2021 08:00" />	<!-- Adds an additional group to the toast with text about the deadline of the OSUpgrade -->
+	<Option Name="Deadline" Enabled="False" Value="30-09-2019 08:00" />	<!-- Adds an additional group to the toast with text about the deadline of the OSUpgrade -->
 	<Option Name="DynamicDeadline" Enabled="False" Value="KR1008C8" />	<!-- Adds an additional group to the toast with text about the deadline of the OSUpgrade. This will retrieve the deadline of the IPU from WMI -->
 	<Option Name="CreateScriptsAndProtocols" Enabled="True" /> <!-- Automatically create the needed custom scripts and protocols. This removes the need to do scripts and protocols outside of the script -->
 	<Option Name="LimitToastToRunEveryMinutes" Enabled="False" Value="5" /> <!-- Prevents the toast notification from being displayed again within the defined value (in minutes) -->
@@ -59,20 +59,20 @@
         <Text Name="ComputerUptimeDaysText">days</Text>
     </en-US>
 	<da-DK>
-        <Text Name="PendingRebootUptimeText">Din computer er pÃ¥krÃ¦vet at genstarte, da den har overskredet den maksimale oppetid.</Text> <!-- Text used if the PendingRebootUptimeText Option is enabled -->
-        <Text Name="PendingRebootCheckText">Ã…rsag: UdestÃ¥ende genstart fundet i registry eller WMI.</Text> <!-- Text used if the PendingRebootUptimeText Option is enabled -->
-        <Text Name="ADPasswordExpirationText">Dit password vil udlÃ¸be: </Text> <!-- Text used if the ADPasswordExpirationText Option is enabled -->
-        <Text Name="CustomAudioTextToSpeech">Hej dig - vÃ¥gn op. Din computer skal genstarte. GÃ¸r det nu.</Text> <!-- Text to speech used if the CustomAudioTextToSpeech Option is enabled -->
+        <Text Name="PendingRebootUptimeText">Din computer er påkrævet at genstarte, da den har overskredet den maksimale oppetid.</Text> <!-- Text used if the PendingRebootUptimeText Option is enabled -->
+        <Text Name="PendingRebootCheckText">Årsag: Udestående genstart fundet i registry eller WMI.</Text> <!-- Text used if the PendingRebootUptimeText Option is enabled -->
+        <Text Name="ADPasswordExpirationText">Dit password vil udløbe: </Text> <!-- Text used if the ADPasswordExpirationText Option is enabled -->
+        <Text Name="CustomAudioTextToSpeech">Hej dig - vågn op. Din computer skal genstarte. Gør det nu.</Text> <!-- Text to speech used if the CustomAudioTextToSpeech Option is enabled -->
         <Text Name="ActionButton1">Genstart nu</Text>  <!-- Text on the ActionButton if enabled -->
 		<Text Name="ActionButton2">Mere Info</Text>  <!-- Text on the ActionButton if enabled -->
         <Text Name="DismissButton">Afvis</Text> <!-- Text on the DismissButton if enabled -->
         <Text Name="SnoozeButton">Udskyd</Text> <!-- Text on the SnoozeButton if enabled -->
         <Text Name="AttributionText">www.imab.dk</Text>
-        <Text Name="HeaderText">En venlig pÃ¥mindelse fra Helpdesk</Text>
+        <Text Name="HeaderText">En venlig påmindelse fra Helpdesk</Text>
         <Text Name="TitleText">Din computer skal genstarte!</Text>
         <Text Name="BodyText1">Af hensyn til din computers sikkerhed og stabilitet, beder vi dig genstarte din computer snarest muligt.</Text>
-        <Text Name="BodyText2">At genstarte sin computer regelmÃ¦ssigt, er med til at sikre et sikkert og stabilt Windows. PÃ¥ forhÃ¥nd tak.</Text>
-        <Text Name="SnoozeText">Klik udskyd for at blive pÃ¥mindet igen om:</Text>
+        <Text Name="BodyText2">At genstarte sin computer regelmæssigt, er med til at sikre et sikkert og stabilt Windows. På forhånd tak.</Text>
+        <Text Name="SnoozeText">Klik udskyd for at blive påmindet igen om:</Text>
         <Text Name="DeadlineText">Din tidsfrist er:</Text>
         <Text Name="GreetMorningText">Godmorgen</Text>
         <Text Name="GreetAfternoonText">God eftermiddag</Text>
@@ -84,24 +84,24 @@
         <Text Name="ComputerUptimeDaysText">dage</Text>
     </da-DK>
     <sv-SE>
-		<Text Name="PendingRebootUptimeText">Din dator behÃ¶ver startas om dÃ¥ den Ã¶verskridit den maximala tillÃ¥tna upptiden.</Text>	<!-- Text used if the PendingRebootUptimeText Option is enabled -->
-		<Text Name="PendingRebootCheckText">Orsak: VÃ¤ntande omstart hittades i registret eller WMI.</Text>	<!-- Text used if the PendingRebootUptimeText Option is enabled -->
-		<Text Name="ADPasswordExpirationText">Ditt lÃ¶senord gÃ¥r ut: </Text>	<!-- Text used if the ADPasswordExpirationText Option is enabled -->
-		<Text Name="CustomAudioTextToSpeech">Hej du - vakna upp. Datorn mÃ¥ste starta om. GÃ¶r det nu.</Text>	<!-- Text to speech used if the CustomAudioTextToSpeech Option is enabled -->
+		<Text Name="PendingRebootUptimeText">Din dator behöver startas om då den överskridit den maximala tillåtna upptiden.</Text>	<!-- Text used if the PendingRebootUptimeText Option is enabled -->
+		<Text Name="PendingRebootCheckText">Orsak: Väntande omstart hittades i registret eller WMI.</Text>	<!-- Text used if the PendingRebootUptimeText Option is enabled -->
+		<Text Name="ADPasswordExpirationText">Ditt lösenord går ut: </Text>	<!-- Text used if the ADPasswordExpirationText Option is enabled -->
+		<Text Name="CustomAudioTextToSpeech">Hej du - vakna upp. Datorn måste starta om. Gör det nu.</Text>	<!-- Text to speech used if the CustomAudioTextToSpeech Option is enabled -->
 		<Text Name="ActionButton1">Starta Om</Text>	<!-- Text on the ActionButton if enabled -->
 		<Text Name="ActionButton2">Starta Om</Text>	<!-- Text on the ActionButton if enabled -->
-		<Text Name="DismissButton">StÃ¤ng</Text>	<!-- Text on the DismissButton if enabled -->
-		<Text Name="SnoozeButton">PÃ¥minn</Text>	<!-- Text on the SnoozeButton if enabled -->
+		<Text Name="DismissButton">Stäng</Text>	<!-- Text on the DismissButton if enabled -->
+		<Text Name="SnoozeButton">Påminn</Text>	<!-- Text on the SnoozeButton if enabled -->
 		<Text Name="AttributionText">www.imab.dk</Text>
-		<Text Name="HeaderText">En vÃ¤nlig pÃ¥minnelse frÃ¥n IT...</Text>
-		<Text Name="TitleText">Din dator behÃ¶vs starta om</Text>
-		<Text Name="BodyText1">FÃ¶r att kunna garantera datorns sÃ¤kerhet och stabilitet ber vi dig att starta om datorn sÃ¥ snart som mÃ¶jligt.</Text>
-		<Text Name="BodyText2">Att starta om sin dator regelbundet bidrar till en stabilare och sÃ¤krare It-miljÃ¶. Tack pÃ¥ fÃ¶rhand!</Text>
-		<Text Name="SnoozeText">Klicka pÃ¥ PÃ¥minn fÃ¶r att bli pÃ¥mind igen:</Text>
-		<Text Name="DeadlineText">Slutdatum Ã¤r:</Text>
+		<Text Name="HeaderText">En vänlig påminnelse från IT...</Text>
+		<Text Name="TitleText">Din dator behövs starta om</Text>
+		<Text Name="BodyText1">För att kunna garantera datorns säkerhet och stabilitet ber vi dig att starta om datorn så snart som möjligt.</Text>
+		<Text Name="BodyText2">Att starta om sin dator regelbundet bidrar till en stabilare och säkrare It-miljö. Tack på förhand!</Text>
+		<Text Name="SnoozeText">Klicka på Påminn för att bli påmind igen:</Text>
+		<Text Name="DeadlineText">Slutdatum är:</Text>
 		<Text Name="GreetMorningText">God morgon</Text>
 		<Text Name="GreetAfternoonText">God eftermiddag</Text>
-		<Text Name="GreetEveningText">God kvÃ¤ll</Text>
+		<Text Name="GreetEveningText">God kväll</Text>
 		<Text Name="MinutesText">Minuter</Text>
 		<Text Name="HourText">Timma</Text>
 		<Text Name="HoursText">Timmar</Text>
