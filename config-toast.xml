@@ -25,9 +25,9 @@
 	<Option Name="LogoImageName" Value="ToastLogoImageWindows.jpg" />  <!-- File name of the image shown as logo in the toast notoification  -->
 	<Option Name="HeroImageName" Value="ToastHeroImageWindows.jpg" /> <!-- File name of the image shown in the top of the toast notification -->	
 	<Option Name="ActionButton1" Enabled="True" />	<!-- Enables or disables the action button. -->
-	<Option Name="ActionButton2" Enabled="True" />	<!-- Enables or disables the action button. -->
+	<Option Name="ActionButton2" Enabled="False" />	<!-- Enables or disables the action button. -->
 	<Option Name="DismissButton" Enabled="True" />	<!-- Enables or disables the dismiss button. -->
-	<Option Name="SnoozeButton" Enabled="False" /> <!-- Enabling this option will always enable action button and dismiss button -->
+	<Option Name="SnoozeButton" Enabled="True" /> <!-- Enabling this option will always enable action button and dismiss button -->
 	<Option Name="Scenario" Type="reminder" />	<!-- Possible values are: reminder | short | long -->
 	<Option Name="Action1" Value="ToastRunUpdateID:" />	<!-- Action taken when using the Action button. Can be any protocol in Windows -->
 	<Option Name="Action2" Value="https://imab.dk" />	<!-- Action taken when using the Action button. Can be any protocol in Windows -->
